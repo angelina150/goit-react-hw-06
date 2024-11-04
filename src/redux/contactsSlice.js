@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 const INITIAL_STATE = {
-  items: JSON.parse(window.localStorage.getItem("saved-contacts")) ?? [],
+  items: [],
 };
 
 const contactSlice = createSlice({
