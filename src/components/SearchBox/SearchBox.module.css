@@ -1,0 +1,9 @@
+.input {
+  width: 200px;
+}
+.wrapper {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
